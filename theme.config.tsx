@@ -2,7 +2,6 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  footer: <p>MIT 2023 © Nextra.</p>,
   head: ({ title, meta }) => (
     <>
       {meta.description && (
