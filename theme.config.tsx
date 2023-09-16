@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
       <meta property="og:title" content="UF" />
       <meta property="og:description" content="The next site builder" />
     </>
-  )
+  ),
   logo: <span>Uberrimae Fidei</span>,
   project: {
     link: 'https://github.com/indemnifi',
