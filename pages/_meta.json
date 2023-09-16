@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "another": "Policy",
-  "advanced": "Advanced (A Folder)",
+  "policy": "Policy Coverage",
+  "underwriting": "Underwriting Criteria",
+  "advanced": "Document",
   "about": {
     "title": "About",
     "type": "page"
@@ -9,7 +10,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/uberimaefidei_",
     "newWindow": true
   }
 }
