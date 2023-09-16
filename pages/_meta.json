@@ -2,7 +2,7 @@
   "index": "Introduction",
   "policy": "Policy Overview",
   "underwriting": "Underwriting Criteria",
-  "advanced": "Policy Coverage",
+  "policycoverage": "Policy Coverage",
   "about": {
     "title": "About",
     "type": "page"
