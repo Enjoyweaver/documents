@@ -1,25 +1,38 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
+import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  head: ({ meta }) => (
-    <>
-      {meta.description && (
-        <meta name="description" content={meta.description} />
-      )}
-      {meta.tag && <meta name="keywords" content={meta.tag} />}
-      {meta.author && <meta name="author" content={meta.author} />}
-    </>
-  ),
-  readMore: 'Read More →',
-  postFooter: null,
-  darkMode: false,
-  navs: [
-    {
-      url: 'https://github.com/shuding/nextra',
-      name: 'UF'
-    }
-  ]
+  logo: <span>Uberrimae Fidei</span>,
+  project: {
+    link: 'https://github.com/indemnifi',
+  },
+  chat: {
+    link: 'https://discord.com',
+  },
+  docsRepositoryBase: 'https://github.com/indemnifi',
+  footer: {
+    text: 'Uberrimae Fidei Insurance Documents',
+  },
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      'https://localhost:3001' +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+ 
+    return (
+      <>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontMatter.title || 'inDemniFi'} />
+        <meta
+          property="og:description"
+          content={frontMatter.description || 'The next site builder'}
+        />
+      </>
+    )
+  },
 }
 
 export default config
