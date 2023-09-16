@@ -1,8 +1,8 @@
 {
   "index": "Introduction",
-  "policy": "Policy Coverage",
+  "policy": "Policy Overview",
   "underwriting": "Underwriting Criteria",
-  "advanced": "Document",
+  "advanced": "Policy Coverage",
   "about": {
     "title": "About",
     "type": "page"
@@ -10,7 +10,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/uberimaefidei_",
+    "href": "https://twitter.com/uberimaefidei",
     "newWindow": true
   }
 }
