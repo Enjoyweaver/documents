@@ -1,25 +1,26 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
-const config: DocsThemeConfig = {
-    head: (
+export default {
+  footer: <p>MIT 2023 © Nextra.</p>,
+  head: ({ title, meta }) => (
     <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="UF" />
-      <meta property="og:description" content="The next site builder" />
+      {meta.description && (
+        <meta name="description" content={meta.description} />
+      )}
+      {meta.tag && <meta name="keywords" content={meta.tag} />}
+      {meta.author && <meta name="author" content={meta.author} />}
     </>
   ),
-  logo: <span>Uberrimae Fidei</span>,
-  project: {
-    link: 'https://github.com/indemnifi',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Uberrimae Fidei Documents',
-  },
+  readMore: 'Read More →',
+  postFooter: null,
+  darkMode: false,
+  navs: [
+    {
+      url: 'https://github.com/shuding/nextra',
+      name: 'UF'
+    }
+  ]
 }
 
 export default config
