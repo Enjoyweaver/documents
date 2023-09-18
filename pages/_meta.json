@@ -1,16 +1,15 @@
 {
   "intro": "Introduction",
-  "coverage": "Coverage",
   "overview": "Policy Overview",
   "underwriting": "Underwriting",
+  "capital": "Capital Fund",
+  "claims": "Claims",
   "policycoverage": "Policy Coverage", {
     "coverage": "Policy Coverage",
     "agreement": "Insuring Agreement",
     "conditions": "Conditions",
     "exclusions": "Exclusions"    
   }, 
-  "capitalfund": "Capital Fund",
-  "claims": "Claims",
   "about": {
     "title": "About",
     "type": "page"
@@ -21,4 +20,5 @@
     "href": "https://twitter.com/uberimaefidei",
     "newWindow": true
   }
+
 }
