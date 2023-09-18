@@ -5,6 +5,15 @@ import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Uberrimae Fidei</span>,
+    docsRepositoryBase: 'https://github.com/shuding/nextra/tree/main/docs',
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – inDemniFi'
+      }
+    }
+  },
   project: {
     link: 'https://github.com/indemnifi',
   },
