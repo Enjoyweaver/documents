@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/indemnifi',
+
   footer: {
     text: 'Uberrimae Fidei Insurance Documents',
   },
