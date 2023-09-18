@@ -1,8 +1,11 @@
 {
   "index": "Introduction",
   "policy": "Policy Overview",
-  "underwriting": "Underwriting Criteria",
-  "policycoverage": "Policy Coverage",
+  "underwriting": "Underwriting",
+  "policycoverage": {
+    "coverage": "Policy Coverage",
+    "agreement": "Insuring Agreement",
+    "conditions": "Conditions",
   "about": {
     "title": "About",
     "type": "page"
