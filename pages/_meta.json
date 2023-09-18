@@ -6,6 +6,7 @@
     "coverage": "Policy Coverage",
     "agreement": "Insuring Agreement",
     "conditions": "Conditions",
+  }, 
   "about": {
     "title": "About",
     "type": "page"
