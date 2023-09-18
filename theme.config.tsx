@@ -24,7 +24,6 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Uberrimae Fidei Insurance Documents',
   },
-  logo,
   head: function useHead() {
     const { title } = useConfig()
     const { route } = useRouter()
