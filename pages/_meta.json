@@ -1,6 +1,7 @@
 {
   "intro": "Introduction",
-  "policy overview": "Policy Overview",
+  "coverage": "Coverage",
+  "policyoverview": "Policy Overview",
   "underwriting": "Underwriting",
   "policycoverage": {
     "coverage": "Policy Coverage",
