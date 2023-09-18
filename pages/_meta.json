@@ -6,6 +6,8 @@
     "coverage": "Policy Coverage",
     "agreement": "Insuring Agreement",
     "conditions": "Conditions",
+    "exclusions": "Exclusions",
+    "capitalfund": "Capital Fund"
   }, 
   "about": {
     "title": "About",
