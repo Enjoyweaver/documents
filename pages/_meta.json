@@ -1,6 +1,6 @@
 {
-  "index": "Introduction",
-  "policy": "Policy Overview",
+  "intro": "Introduction",
+  "policy overview": "Policy Overview",
   "underwriting": "Underwriting",
   "policycoverage": {
     "coverage": "Policy Coverage",
