@@ -3,13 +3,14 @@
   "coverage": "Coverage",
   "policyoverview": "Policy Overview",
   "underwriting": "Underwriting",
-  "policycoverage": {
+  "policycoverage": "Policy Coverage", {
     "coverage": "Policy Coverage",
     "agreement": "Insuring Agreement",
     "conditions": "Conditions",
-    "exclusions": "Exclusions",
-    "capitalfund": "Capital Fund"
+    "exclusions": "Exclusions"    
   }, 
+  "capitalfund": "Capital Fund",
+  "claims": "Claims",
   "about": {
     "title": "About",
     "type": "page"
