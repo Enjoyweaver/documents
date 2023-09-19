@@ -9,11 +9,8 @@
     "agreement": "Insuring Agreement",
     "conditions": "Conditions",
     "exclusions": "Exclusions"    
-  }, 
-  "about": {
-    "title": "About",
-    "type": "page"
   },
+  "about": "About",
   "contact": {
     "title": "Contact ↗",
     "type": "page",
