@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
     }
   },
   project: {
-    link: 'https://github.com/indemnifi',
+    link: 'https://github.com/indemnifi/Uberrimae',
   },
   chat: {
     link: 'https://discord.com',
