@@ -5,7 +5,7 @@ import { useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Uberrimae Fidei</span>,
-    docsRepositoryBase: 'https://github.com/inDemniFi/Uberrimae/tree/main/docs',
+    docsRepositoryBase: 'https://github.com/inDemniFi/Uberrimae/issues/new',
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
