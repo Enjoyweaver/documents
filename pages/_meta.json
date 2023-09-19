@@ -1,4 +1,5 @@
 {
+  "about": "About Us"            
   "intro": "Introduction",
   "overview": "Policy Overview",
   "underwriting": "Underwriting",
@@ -10,12 +11,4 @@
     "conditions": "Conditions",
     "exclusions": "Exclusions"    
   },
-  "about": "About",
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/uberimaefidei",
-    "newWindow": true
-  }
-
 }
