@@ -11,4 +11,10 @@
     "conditions": "Conditions",
     "exclusions": "Exclusions"    
   },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/uberimaefidei",
+    "newWindow": true
+  }
 }
